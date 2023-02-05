@@ -1,0 +1,35 @@
+{
+  "name": "rpg-master-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --write \"**/*.{js,ts,tsx,jsx,css,html}\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@solidjs/router": "^0.7.0",
+    "ohmyfetch": "^0.4.21",
+    "solid-js": "^1.6.10"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/node": "^18.11.19",
+    "@vue/compiler-sfc": "^3.2.47",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-solid": "^0.9.4",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  }
+}
